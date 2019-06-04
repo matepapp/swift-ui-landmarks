@@ -10,7 +10,14 @@ import SwiftUI
 
 struct LandmarkList : View {
     var body: some View {
-        List(landmarkData, rowContent: LandmarkRow.init)
+        NavigationView {
+            List(landmarkData) { landmark in
+                NavigationButton(destination: LandmarkDetail()) {
+                    LandmarkRow(landmark: landmark)
+                }
+            }
+        }
+        .navigationBarTitle(Text("Landmarks"))
     }
 }
 
