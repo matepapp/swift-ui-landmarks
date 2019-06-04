@@ -15,6 +15,7 @@
 		099DEFD322A63866000AE043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099DEFD122A63866000AE043 /* LaunchScreen.storyboard */; };
 		099DEFDE22A63867000AE043 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099DEFDD22A63867000AE043 /* LandmarksTests.swift */; };
 		099DEFE922A63867000AE043 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099DEFE822A63867000AE043 /* LandmarksUITests.swift */; };
+		099DEFF722A63DCE000AE043 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099DEFF622A63DCE000AE043 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		099DEFE422A63867000AE043 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		099DEFE822A63867000AE043 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		099DEFEA22A63867000AE043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099DEFF622A63DCE000AE043 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		099DEFBA22A63861000AE043 = {
 			isa = PBXGroup;
 			children = (
+				099DEFF622A63DCE000AE043 /* CircleImage.swift */,
 				099DEFC522A63861000AE043 /* Landmarks */,
 				099DEFDC22A63867000AE043 /* LandmarksTests */,
 				099DEFE722A63867000AE043 /* LandmarksUITests */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				099DEFC722A63861000AE043 /* AppDelegate.swift in Sources */,
+				099DEFF722A63DCE000AE043 /* CircleImage.swift in Sources */,
 				099DEFC922A63861000AE043 /* SceneDelegate.swift in Sources */,
 				099DEFCB22A63861000AE043 /* ContentView.swift in Sources */,
 			);
