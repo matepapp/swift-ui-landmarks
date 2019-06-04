@@ -16,6 +16,7 @@
 		099DEFDE22A63867000AE043 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099DEFDD22A63867000AE043 /* LandmarksTests.swift */; };
 		099DEFE922A63867000AE043 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099DEFE822A63867000AE043 /* LandmarksUITests.swift */; };
 		099DEFF722A63DCE000AE043 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099DEFF622A63DCE000AE043 /* CircleImage.swift */; };
+		099DEFF922A63EFB000AE043 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099DEFF822A63EFB000AE043 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		099DEFE822A63867000AE043 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		099DEFEA22A63867000AE043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099DEFF622A63DCE000AE043 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		099DEFF822A63EFB000AE043 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				099DEFF622A63DCE000AE043 /* CircleImage.swift */,
+				099DEFF822A63EFB000AE043 /* MapView.swift */,
 				099DEFC522A63861000AE043 /* Landmarks */,
 				099DEFDC22A63867000AE043 /* LandmarksTests */,
 				099DEFE722A63867000AE043 /* LandmarksUITests */,
@@ -272,6 +275,7 @@
 			files = (
 				099DEFC722A63861000AE043 /* AppDelegate.swift in Sources */,
 				099DEFF722A63DCE000AE043 /* CircleImage.swift in Sources */,
+				099DEFF922A63EFB000AE043 /* MapView.swift in Sources */,
 				099DEFC922A63861000AE043 /* SceneDelegate.swift in Sources */,
 				099DEFCB22A63861000AE043 /* ContentView.swift in Sources */,
 			);
