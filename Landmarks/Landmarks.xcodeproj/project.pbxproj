@@ -83,8 +83,6 @@
 		099DEFBA22A63861000AE043 = {
 			isa = PBXGroup;
 			children = (
-				099DEFF622A63DCE000AE043 /* CircleImage.swift */,
-				099DEFF822A63EFB000AE043 /* MapView.swift */,
 				099DEFC522A63861000AE043 /* Landmarks */,
 				099DEFDC22A63867000AE043 /* LandmarksTests */,
 				099DEFE722A63867000AE043 /* LandmarksUITests */,
@@ -108,6 +106,8 @@
 				099DEFC622A63861000AE043 /* AppDelegate.swift */,
 				099DEFC822A63861000AE043 /* SceneDelegate.swift */,
 				099DEFCA22A63861000AE043 /* ContentView.swift */,
+				099DEFF622A63DCE000AE043 /* CircleImage.swift */,
+				099DEFF822A63EFB000AE043 /* MapView.swift */,
 				099DEFCC22A63866000AE043 /* Assets.xcassets */,
 				099DEFD122A63866000AE043 /* LaunchScreen.storyboard */,
 				099DEFD422A63866000AE043 /* Info.plist */,
